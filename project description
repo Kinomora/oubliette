@@ -1,0 +1,30 @@
+Broad idea:
+A roguelike dungeon crawler with progression elements, prestigable progress, and deep lore aspects.
+
+Concept
+Begin at F0, the surface. Speak with an NPC to being a dungeon. You start off with 0 skill points and all skills are set to level 1 (out of 10).
+You enter the dungeon and begin in the center room with various resources and utilities.
+An NPC serves as info, a shop, and a quit option. Progress is saved automatically.
+A randomly generated layout based on floor size (small, medium, large) is generated with a boss room where the player can descent.
+In order to reach the boss the player must complete various puzzles or challenges. The path to the boss room should always be completable(?) should the player properly use their resources.
+There should be additional bonus skill-rooms which are unlocked using the various secondary skills the player specs into.
+These rooms should provide additional resources, gold, and/or experience to benefit the player as they explore and progress.
+Some rooms will not be completable as the dungeon is randomly generated and may expect the player to have certain skills leveled up.
+As the player defeats bosses they gain experience points. Points can be spent to increase the level of various skills. Skills should be re-spec-able by spending a point to reset.
+Players that spend points to increase certain skills and get lucky or express skill within the game will be able to produce better armor, weapons, or supplies for future runs
+As the player descends, the odds of rolling a skill check that is higher than the players skill level increases. Eventually the dungeon will be impossible to complete without escaping and resetting to comeback with higher skills.
+
+
+Example run:
+Player spawns in room, each wall has a door
+North door is locked behind Green Key, East door is unlocked, West door is locked behind level 1 mining, South door is unlocked
+Player mines the rocks to access west door and gains a little xp, peers into room.
+West room has 2 enemies and a chest. Player enters, defeats the enemies, gains a little xp, within the chest is a Green Key
+Player returns to the central room and checks the east door. Within the east room is a fishing spot for food and a mining rock for metal
+Player collects the fish and mines the ore, then returns to the central room.
+Player cooks the fish, success chance based on cooking level. Player smelts ore and turns it into a sword.
+Player unlocks North door using Green Key and checks the door. Behind it is a room with only 1 door to the north with an Orange Key locking it.
+Player checks South door. The room contains a door to the east and west, the east door is unlocked; the west door requires level 3 mining.
+The player checks the east door and sees a room with a puzzle. The player solves the puzzle and receives an Orange Key.
+The player returns to the center room, then goes North and unlocks the orange door. Behind this door is the boss room.
+The player must defeat the boss to "win". after defeating the boss, they may descend to the next floor or escape. Experience is awarded.
